@@ -1,10 +1,14 @@
 require "pry"
 class School
+    
+    def initialize(roster)
+      @roster = {}
+    end
 
-  def initialize(school_name)
-    @school_name = school_name
-    @roster = {}
-  end
+  # def initialize(school_name)
+  #   @school_name = school_name
+  #   @roster = {}
+  # end
   
   # def roster
   #   @roster = {}
