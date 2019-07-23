@@ -1,5 +1,4 @@
 require "pry"
-binding.pry
 class School
 
   def initialize(school_name)
